@@ -3,7 +3,7 @@ export default function ReviewDisplayBox() {
   return (
     <motion.div
       className="w-[230px] h-[150px] border-[0.5px] rounded-[30px] bg-[var(--color-glasspane)]
-                flex flex-col p-4 backdrop-blur-xs"
+                flex flex-col p-4 backdrop-blur-xs text-left"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: false, amount: 0.2 }}

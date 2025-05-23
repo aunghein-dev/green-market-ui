@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+:root{
+  --color-background: #171F12;
+
+  --color-primary-txt: rgba(255, 255, 255, 0.75);
+  --color-test: lightblue;
+  --color-glasspane: rgba(85, 85, 85, 0.1);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-background);
+  color: var(--color-primary-txt);
+  margin-top: 42px;
+  overflow-x: hidden;
+  min-height: 1500px;
+  word-spacing: 1%;
+}
+
+
+.nav{
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  top: 2%;
+  left: 50%;
+  transform: translateX(-50%); /* Center it */
+  width: calc(100% - 1.6rem); /* add horizontal margin spacing */
+  max-width: 870px; /* matches body */
+}
+
+.icon{
+  width: 14px;
+  width: 14px;
+}
+
+.logo{
+  width: 28px;
+  width: 28px;
+}
+
+.profile{
+  width: 34px;
+  width: 34px;
+}
+
+.stars{
+  width: 50px;
+}
